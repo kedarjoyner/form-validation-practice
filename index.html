@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration | Form Practice</title>
+</head>
+<body>
+  <h1>Register</h1>
+  <form>
+  <!-- Name -->
+    <label for="firstName">
+      <strong>First Name:</strong>
+    </label>
+    <input name="firstName" id="firstName" required/>
+
+    <label for="lastName">
+      <strong>Last Name:</strong>
+    </label>
+    <input name="lastName" id="lastName" required/>
+  <!-- End Name -->
+
+  <!-- Gender -->
+    <div>
+      <p><strong>I identify my gender as:</strong></p>
+      <!-- Male -->
+      <label for="male">Male</label>
+      <input name="genderChoice" id="male" type="radio" value="male" />
+      <!-- Female -->
+      <label for="female">Female</label>
+      <input name="genderChoice" id="female" type="radio" value="female" />
+      <!-- Trans -->
+      <label for="trans">Trans</label>
+      <input name="genderChoice" id="trans" type="radio" value="trans" />
+      <!-- Other -->
+      <label for="other">Other</label>
+      <input name="genderChoice" id="other" type="radio" value="other" />
+    </div>
+  <!-- End Gender -->
+  <br />
+  <!-- Email and Password -->
+    <div>
+      <label for="email">
+        <strong>Email:</strong>
+      </label>
+      <input name="email" id="email" type="email" required/>
+
+      <label for="password">
+        <strong>Password:</strong>
+      </label>
+      <input name="password" id="password" type="password" pattern=".{5,10}" title="Password must be between 5 and 10 characters" required />
+    </div>
+  <!-- End Email and Password -->
+  <br />
+  <button>Register</button>
+  </form>
+
+</body>
+</html>
