@@ -1,7 +1,7 @@
 # form-validation-practice
-Assignment #4 Web Developer Bootcamp Udemy Course
+Assignment No. 4 in Web Developer Bootcamp Udemy Course
 
-### Course Description ### 
+### Course Description ###
 
 We build 13+ projects, including a gigantic production application called YelpCamp. No other course walks you through the creation of such a substantial application.
 
